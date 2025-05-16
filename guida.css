@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.botton{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+#nome, #cognome{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#bottom{
+  border: 1px solid;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+
+}
+
+#smonellita{
+  font-size: 5rem;
+}
