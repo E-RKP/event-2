@@ -88,12 +88,14 @@ diminuire.addEventListener('click', ()=>{
   counterm();
   numerino.innerHTML = counterSmall
   numerone.innerHTML = counterBig
+  numerone.style.color = 'red'
 })
 
 aggiungere.addEventListener('click', ()=>{
   counterp();
   numerino.innerHTML = counterSmall
   numerone.innerHTML = counterBig
+  numerone.style.color = 'green'
 })
 
 
