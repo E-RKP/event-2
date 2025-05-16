@@ -34,3 +34,58 @@ body{
 #smonellita{
   font-size: 5rem;
 }
+
+#lista{
+  text-decoration: none;
+  list-style: none;
+}
+
+#lista li{
+  display: flex;
+  flex-direction: column;
+  color: red;
+}
+
+#sbottoncine{
+  color: blue;
+  display: flex;
+  justify-self: center;
+  border: 1px solid;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 1rem;
+}
+
+#numerone{
+  font-size: 5rem;
+  padding: 1rem;
+}
+
+.buttoni{
+  display: flex;
+  gap: 3rem;
+}
+#figuraccia{
+color: rebeccapurple;
+font-size: 1.25rem;
+}
+
+
+#diminuisce, #aggiungere{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0.75rem 0.75rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
